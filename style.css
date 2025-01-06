@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+nav {
+    background-image: linear-gradient(to right, rgb(127, 9, 231) , rgb(5, 5, 7));
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+    
+}
+
+.hero {
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1733908511568-3abc819b21b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3OXx8fGVufDB8fHx8fA%3D%3D') no-repeat center;
+    background-position: right center,left center;
+    color: rgb(0, 0, 0);
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.about {
+    padding: 50px 20px;
+    background: url('https://images.unsplash.com/photo-1733840068504-5a6ce9d19e14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzMnxNOGpWYkxiVFJ3c3x8ZW58MHx8fHx8') no-repeat center;
+    background-position: left center,;
+    background-size: cover;
+    text-align: center;
+}
+
+.about p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.work {
+    padding: 50px 20px;
+    background: #FFD700;
+    text-align: center;
+    background: url('https://plus.unsplash.com/premium_photo-1733259723636-d0df24b07bab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU3fE04alZiTGJUUndzfHxlbnwwfHx8fHw%3D') no-repeat center;
+    background-position: center;
+    background-size: cover;
+}
+
+.work h2 {
+    margin-bottom: 20px;
+    
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    width: 200px;
+    height: 200px;
+    background: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
